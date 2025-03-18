@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0a0a23;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Reset margins/paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centering header */
+.header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.enter{
+    margin-bottom: 10px;
+
+}
+
+/* Main Title */
+.main-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Palindrome Checker Box */
+.check-box {
+    width: min(100vw, 500px);
+    min-height: 170px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 6px 6px #002ead;
+    color: black;
+    text-align: center;
+}
+
+/* Input & Button Container */
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px; /* Adds space between input and button */
+}
+
+/* Input Styling */
+input {
+    height: 40px;
+    width: 220px;
+    text-align: center;
+    font-size: 1rem;
+    border: none; /* Remove all borders */
+    border-bottom: 2px solid #5a01a7; /* Only bottom border */
+    outline: none;
+    color: black;
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+/* Button Styling */
+#check-btn {
+    height: 40px;
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5a01a7;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+#check-btn:hover {
+    background-color: #7202d4;
+    transform: scale(1.05);
+}
+
+/* Result Text */
+#result-text {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+.footer {
+    width: min(100vw, 500px); /* Increased width */
+    min-height: 170px; /* Increased height */
+    padding: 25px; /* More padding */
+    border-radius: 15px;
+    text-align: center;
+    background-color: #015c01;
+    box-shadow: 0 3px 5px #002ead;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+
+img{
+    height: 30px;
+    margin-bottom: 20px;
+}
